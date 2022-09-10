@@ -1,0 +1,9 @@
+class Main{
+  public static void main(String[] args){
+    String s1="Java Program";
+    String s2="Python Program";
+    String s3="C Program";
+    System.out.println("Strings first and second are equal: "+s1.equals(s2));
+    System.out.println("Strings first and third are equal: "+s1.equals(s3));
+  }
+}
